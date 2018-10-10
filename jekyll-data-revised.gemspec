@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "jekyll-data/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-data"
+  spec.name          = "jekyll-data-revised"
   spec.version       = JekyllData::VERSION
   spec.authors       = ["Ashwin Maroli"]
   spec.email         = ["ashmaroli@gmail.com"]
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "jekyll", "~> 3.3"
+  spec.add_runtime_dependency "jekyll", "~> 3.7.4"
 
   spec.add_development_dependency "bundler", "~> 1.14", ">= 1.14.3"
   spec.add_development_dependency "cucumber", "~> 2.1"
