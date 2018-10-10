@@ -1,11 +1,11 @@
 require "jekyll"
-require "jekyll-data/version"
+require "jekyll-data-revised/version"
 
 module JekyllData
-  autoload :Reader,             "jekyll-data/reader"
-  autoload :ThemedSiteDrop,     "jekyll-data/themed_site_drop"
-  autoload :ThemeDataReader,    "jekyll-data/theme_data_reader"
-  autoload :ThemeConfiguration, "jekyll-data/theme_configuration"
+  autoload :Reader,             "jekyll-data-revised/reader"
+  autoload :ThemedSiteDrop,     "jekyll-data-revised/themed_site_drop"
+  autoload :ThemeDataReader,    "jekyll-data-revised/theme_data_reader"
+  autoload :ThemeConfiguration, "jekyll-data-revised/theme_configuration"
 end
 
 # Monkey-patches

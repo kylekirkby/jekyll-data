@@ -4,5 +4,5 @@ Gem::Specification.new do |s|
   s.licenses    = ['MIT']
   s.summary     = "This is a theme used to test JekyllData Plugin"
   s.authors     = ["JekyllData"]
-  s.homepage    = 'https://github.com/ashmaroli/jekyll-data'
+  s.homepage    = 'https://github.com/ashmaroli/jekyll-data-revised'
 end

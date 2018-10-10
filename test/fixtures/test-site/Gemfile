@@ -18,8 +18,8 @@ gem "jekyll", "~> 3.3"
 gem "test-theme", path: File.expand_path("../test-theme", __dir__)
 gem "test-plugin", path: File.expand_path("../test-plugin", __dir__)
 
-# Recommended: all other plugins outside the theme's scope including 'jekyll-data' to be added under this group.
+# Recommended: all other plugins outside the theme's scope including 'jekyll-data-revised' to be added under this group.
 group :jekyll_plugins do
-  gem "jekyll-data", path: File.expand_path("../../../", __dir__)
+  gem "jekyll-data-revised", path: File.expand_path("../../../", __dir__)
   gem "another-test-plugin", path: File.expand_path("../another-test-plugin", __dir__)
 end

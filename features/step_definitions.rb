@@ -74,7 +74,7 @@ Given(%r!^I have a valid Gemfile$!) do
     )
 
     group :jekyll_plugins do
-      gem "jekyll-data", path: File.expand_path("../../", File.dirname(__FILE__))
+      gem "jekyll-data-revised", path: File.expand_path("../../", File.dirname(__FILE__))
       # any other plugins
     end
 

@@ -6,7 +6,7 @@ require "safe_yaml/load"
 
 class Paths
   SOURCE_DIR = Pathname.new(File.expand_path("../..", __dir__))
-  def self.test_dir; source_dir.join("tmp", "jekyll-data"); end
+  def self.test_dir; source_dir.join("tmp", "jekyll-data-revised"); end
 
   def self.output_file; test_dir.join("jekyll_output.txt"); end
 

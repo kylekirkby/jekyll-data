@@ -1,9 +1,9 @@
 # JekyllData
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-data.svg)](https://rubygems.org/gems/jekyll-data)
-[![Build Status](https://img.shields.io/travis/ashmaroli/jekyll-data/master.svg?label=Build%20Status)][travis]
+[![Gem Version](https://img.shields.io/gem/v/jekyll-data-revised.svg)](https://rubygems.org/gems/jekyll-data-revised)
+[![Build Status](https://img.shields.io/travis/ashmaroli/jekyll-data-revised/master.svg?label=Build%20Status)][travis]
 
-[travis]: https://travis-ci.org/ashmaroli/jekyll-data
+[travis]: https://travis-ci.org/ashmaroli/jekyll-data-revised
 
 Introducing a plugin that reads data files within **jekyll theme-gems** and adds the resulting hash to the site's internal data hash. If a **`_config.yml`** is present at the root of the theme-gem, it will be evaluated and the extracted hash data will be incorporated into the site's existing config hash.
 
@@ -16,7 +16,7 @@ Simply add the plugin to your site's Gemfile and config file like every other je
 # Gemfile
 
 group :jekyll_plugins do
-  gem "jekyll-data"
+  gem "jekyll-data-revised"
 end
 ```
 ..and run
@@ -46,7 +46,7 @@ This plugin provides a solution to that hurdle:
 
 JekyllData now reads the config file (at present only `_config.yml`) present within the theme-gem and uses the data to modify the site's config hash. This allows the theme-gem to continue using `{{ site.myvariable }}` within its templates and work out-of-the-box as intended, with minimal user intervention.
 
-**Note: the plugins required by the theme may be listed under the `gems:` array and will be automatically `required` by Jekyll while building/serving, provided that the user doesn't have a different `gems:` array in the config file at source. Hence it is recommended to add all other plugins ( including `jekyll-data` ) via the Gemfile's `:jekyll_plugins` group.**
+**Note: the plugins required by the theme may be listed under the `gems:` array and will be automatically `required` by Jekyll while building/serving, provided that the user doesn't have a different `gems:` array in the config file at source. Hence it is recommended to add all other plugins ( including `jekyll-data-revised` ) via the Gemfile's `:jekyll_plugins` group.**
 
 #### The `theme` namespace
 
@@ -117,7 +117,7 @@ For example, if a theme-gem contains the above sample `locales.yml`, then to ove
 
 ## Contributing
 
-Bug reports and pull requests are welcome at the [GitHub Repo](https://github.com/ashmaroli/jekyll-data). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome at the [GitHub Repo](https://github.com/ashmaroli/jekyll-data-revised). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

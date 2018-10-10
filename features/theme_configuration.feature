@@ -33,7 +33,7 @@ Feature: Configuring Gem-based Themes
     Given I have a configuration file with:
       | key           | value                              |
       | theme         | test-theme                         |
-      | gems          | [jekyll-data, another-test-plugin] |
+      | gems          | [jekyll-data-revised, another-test-plugin] |
       | exclude       | [Gemfile, Gemfile.lock]            |
     And I have a Gemfile with plugin:
       | name                | path                                    |
@@ -48,7 +48,7 @@ Feature: Configuring Gem-based Themes
     Given I have a configuration file with:
       | key           | value                           |
       | theme         | test-theme                      |
-      | gems          | [jekyll-data]                   |
+      | gems          | [jekyll-data-revised]                   |
       | exclude       | [Gemfile, Gemfile.lock]         |
     And I have a valid Gemfile
     And I have a "page.md" file with content:

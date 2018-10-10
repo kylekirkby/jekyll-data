@@ -5,7 +5,7 @@ require "minitest/reporters"
 require "minitest/profile"
 require "rspec/mocks"
 
-require_relative "../lib/jekyll-data.rb"
+require_relative "../lib/jekyll-data-revised.rb"
 
 Jekyll.logger = Logger.new(StringIO.new)
 

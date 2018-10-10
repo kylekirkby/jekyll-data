@@ -21,7 +21,7 @@ Feature: Reading Data files in Gem-based Themes
       | key           | value                           |
       | lang          | fr                              |
       | theme         | test-theme                      |
-      | gems          | [jekyll-data]                   |
+      | gems          | [jekyll-data-revised]                   |
       | exclude       | [Gemfile, Gemfile.lock]         |
     And I have a "locales.md" file with content:
       """
@@ -50,7 +50,7 @@ Feature: Reading Data files in Gem-based Themes
       | key           | value                           |
       | lang          | fr                              |
       | theme         | test-theme                      |
-      | gems          | [jekyll-data]                   |
+      | gems          | [jekyll-data-revised]                   |
       | exclude       | [Gemfile, Gemfile.lock]         |
     And I have a "locales.md" file with content:
       """
@@ -85,7 +85,7 @@ Feature: Reading Data files in Gem-based Themes
       | key           | value                           |
       | lang          | fr                              |
       | theme         | test-theme                      |
-      | gems          | [jekyll-data]                   |
+      | gems          | [jekyll-data-revised]                   |
       | exclude       | [Gemfile, Gemfile.lock]         |
     And I have a "locales.md" file with content:
       """

@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll-data/version'
+require 'jekyll-data-revised/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-data-revised"
@@ -10,12 +10,12 @@ Gem::Specification.new do |spec|
   spec.email         = ["ashmaroli@gmail.com"]
 
   spec.summary       = %q{A plugin to read '_config.yml' and data files within Jekyll theme-gems}
-  spec.homepage      = "https://github.com/ashmaroli/jekyll-data"
+  spec.homepage      = "https://github.com/ashmaroli/jekyll-data-revised"
   spec.license       = "MIT"
 
   spec.metadata      = { "allowed_push_host" => "https://rubygems.org" }
 
-  spec.files         = `git ls-files -z`.split("\x0").select do |f|
+  spec.files         = `git ls-files -z`.split("\n").select do |f|
     f.match(%r{^(lib/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
   spec.require_paths = ["lib"]
