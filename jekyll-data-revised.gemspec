@@ -5,7 +5,7 @@ require 'jekyll-data-revised/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-data-revised"
-  spec.version       = JekyllData::VERSION
+  spec.version       = JekyllDataRevised::VERSION
   spec.authors       = ["Ashwin Maroli"]
   spec.email         = ["ashmaroli@gmail.com"]
 
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "jekyll", "~> 3.7.4"
+  spec.add_runtime_dependency "jekyll", "~> 3.7.3"
 
   spec.add_development_dependency "bundler", "~> 1.14", ">= 1.14.3"
   spec.add_development_dependency "cucumber", "~> 2.1"

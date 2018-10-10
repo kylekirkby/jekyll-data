@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-module JekyllData
+module JekyllDataRevised
   class ThemeConfiguration < Jekyll::Configuration
     class << self
       # Public: Establish a new site.config hash by reading an optional config
@@ -56,7 +56,7 @@ module JekyllData
     # namespace.
     def validate_config_hash(value)
       unless value.is_a? Hash
-        Jekyll.logger.abort_with "JekyllData:", "Theme Configuration should be a " \
+        Jekyll.logger.abort_with "JekyllDataRevised:", "Theme Configuration should be a " \
             "Hash of key:value pairs or mappings. But got #{value.class} instead."
       end
     end

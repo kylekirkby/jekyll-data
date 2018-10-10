@@ -1,3 +1,3 @@
-module JekyllData
-  VERSION = "1.2.0".freeze
+module JekyllDataRevised
+  VERSION = "1.2.1".freeze
 end

@@ -12,7 +12,7 @@ Feature: Reading Data files in Gem-based Themes
       | test-plugin   | ../../test/fixtures/test-plugin |
     When I run bundle exec jekyll build
     Then I should get a non-zero exit status
-    And I should see "JekyllData: Error!" in the build output
+    And I should see "JekyllDataRevised: Error!" in the build output
     And the _site directory should not exist
     And the "_site/test-feed.xml" file should not exist
 

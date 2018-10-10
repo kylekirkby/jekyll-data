@@ -4,7 +4,7 @@ module Jekyll
   module Drops
     class UnifiedPayloadDrop < Drop
       def site
-        @site_drop ||= JekyllData::ThemedSiteDrop.new(@obj)
+        @site_drop ||= JekyllDataRevised::ThemedSiteDrop.new(@obj)
       end
 
       # Register a namespace to easily call subkeys under <theme-name> key

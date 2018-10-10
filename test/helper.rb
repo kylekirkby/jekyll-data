@@ -49,9 +49,9 @@ module DirectoryHelpers
   end
 end
 
-class JekyllDataTest < Minitest::Test
+class JekyllDataRevisedTest < Minitest::Test
   include Jekyll
-  include JekyllData
+  include JekyllDataRevised
   include DirectoryHelpers
   include ::RSpec::Mocks::ExampleMethods
 

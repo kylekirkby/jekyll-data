@@ -1,4 +1,4 @@
-module JekyllData
+module JekyllDataRevised
   class ThemeDataReader < Jekyll::DataReader
     attr_reader :site, :content
     def initialize(site)

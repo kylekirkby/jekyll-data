@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-module JekyllData
+module JekyllDataRevised
   class ThemedSiteDrop < Jekyll::Drops::SiteDrop
     extend Forwardable
 

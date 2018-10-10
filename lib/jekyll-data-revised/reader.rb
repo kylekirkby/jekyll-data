@@ -1,7 +1,7 @@
 # encoding: UTF-8
 require "csv"
 
-module JekyllData
+module JekyllDataRevised
   class Reader < Jekyll::Reader
     def initialize(site)
       @site = site

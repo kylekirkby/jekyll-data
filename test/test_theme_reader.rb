@@ -1,6 +1,6 @@
 require "helper"
 
-class TestThemeReader < JekyllDataTest
+class TestThemeReader < JekyllDataRevisedTest
   context "site without data files but with a valid theme" do
     setup do
       @site = fixture_site(

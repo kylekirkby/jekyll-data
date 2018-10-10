@@ -5,7 +5,7 @@
 
   * `{{ theme.myvariable }}` now points to `site.<theme-name>.myvariable` instead of `site.data.<theme-name>.myvariable`.  **[[`#08`][]]**
   * extracting a theme-gem's config hash and incorporating it into the site's internal config hash is handled by a new  `ThemeConfiguration` class. **[[`#09`][], [`#11`][]]**
-  * All new classes are now loaded under `JekyllData` module. The `Jekyll` namespace will only contain patches to the original `Jekyll` module or its classes. **[[`#15`][], [`#22`][]]**
+  * All new classes are now loaded under `JekyllDataRevised` module. The `Jekyll` namespace will only contain patches to the original `Jekyll` module or its classes. **[[`#15`][], [`#22`][]]**
 
 [`#08`]: https://github.com/ashmaroli/jekyll-data-revised/pull/8
 [`#09`]: https://github.com/ashmaroli/jekyll-data-revised/pull/9

@@ -1,4 +1,4 @@
-# JekyllData
+# JekyllDataRevised
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-data-revised.svg)](https://rubygems.org/gems/jekyll-data-revised)
 [![Build Status](https://img.shields.io/travis/ashmaroli/jekyll-data-revised/master.svg?label=Build%20Status)][travis]
@@ -44,13 +44,13 @@ Jekyll themes (built prior to `Jekyll 3.2`) usually ship with configuration sett
 
 This plugin provides a solution to that hurdle:
 
-JekyllData now reads the config file (at present only `_config.yml`) present within the theme-gem and uses the data to modify the site's config hash. This allows the theme-gem to continue using `{{ site.myvariable }}` within its templates and work out-of-the-box as intended, with minimal user intervention.
+JekyllDataRevised now reads the config file (at present only `_config.yml`) present within the theme-gem and uses the data to modify the site's config hash. This allows the theme-gem to continue using `{{ site.myvariable }}` within its templates and work out-of-the-box as intended, with minimal user intervention.
 
 **Note: the plugins required by the theme may be listed under the `gems:` array and will be automatically `required` by Jekyll while building/serving, provided that the user doesn't have a different `gems:` array in the config file at source. Hence it is recommended to add all other plugins ( including `jekyll-data-revised` ) via the Gemfile's `:jekyll_plugins` group.**
 
 #### The `theme` namespace
 
-From `v1.0`, JekyllData no longer supports reading theme configuration provided as a `[theme-name].***` file within the `_data` directory and instead the `theme` namespace points to a certain key in the bundled `_config.yml`.
+From `v1.0`, JekyllDataRevised no longer supports reading theme configuration provided as a `[theme-name].***` file within the `_data` directory and instead the `theme` namespace points to a certain key in the bundled `_config.yml`.
 
 For `{{ theme.variable }}` to work, the config file should nest all such key-value pairs under the `[theme-name]` key, as outlined in the example below for a theme-gem called `solitude`:
 
